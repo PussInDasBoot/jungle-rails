@@ -44,21 +44,20 @@ main section.categories-show {
         position: absolute;
         top: 0;
         padding: 10px;
+        font-size: 0.8em;
 
         &.price {
           right: 0;
           background-color: #eee;
           border-top-right-radius: 4px;
           border-bottom-left-radius: 20px;
-          font-size: 0.8em;
         }
 
         &.soldout {
           left: 0;
-          background-color: #FF0000;
+          background-color: #CD5C5C;
           border-top-left-radius: 4px;
           border-bottom-right-radius: 20px;
-          font-size: 1em;
 
         }
       }
